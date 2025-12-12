@@ -40,7 +40,7 @@ By "Linked Data", we mean tools related to [Semantic Web standards](https://www.
   - The best Python library and ecosystem for Linked Data.
   - The JavaScript analogous is [rdflib.js](https://github.com/linkeddata/rdflib.js).
 
-- Triplestores
+- **Triplestores**
   - Only open-source, free recommendations.
   - [**Jena Fuseki Server with Inference Support**](https://github.com/andybywire/jena-fuseki-inf)
     - Docker image for running Apache Jena Fuseki with RDFS and OWL inference. The easiest and fastest way to run Fuseki.

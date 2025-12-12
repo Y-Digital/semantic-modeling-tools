@@ -65,3 +65,5 @@ By "Linked Data", we mean tools related to [Semantic Web standards](https://www.
 
 - [**Awesome Semantic Web**](https://github.com/semantalytics/awesome-semantic-web)
   - Miscellaneous list of resources related to Linked Data.
+- [**RDF Playground**](https://rdfplayground.dcc.uchile.cl/)
+  - For quick interaction with RDF data and SHACL shapes.

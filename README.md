@@ -14,7 +14,7 @@ Modeling the domain or the problem correctly is one of the most important tasks 
 
 - [**OntoUML plugin for Visual Paradigm**](https://github.com/OntoUML/ontouml-vp-plugin)
   - Visual Paradigm is a *professional* conceptual modeling tool suite. The [community edition](https://www.visual-paradigm.com/editions/community/) can be used for free for non-commercial purposes. It is the only closed-source and paid tool (for commercial purposes) on this list. However, the entire [OntoUML ecosystem](https://github.com/OntoUML) (metamodel, schema, server, etc.) adopts an open-source, permissive license, such as Apache 2.0. This means anyone is free to implement the OntoUML language in another tool or as a standalone tool.
-  - The OntoUML is, in practice, a UML Class diagram profile, whose grammar is designed according to the [Unified Foundational Ontology](https://doi.org/10.3233/AO-210256) (to become an [ISO standard](https://www.iso.org/standard/89915.html) soon). Consequently, the OntoUML models are constrained by useful upper ontological distinctions, which prevent certain modeling mistakes by design (for example, confusing entities of different natures, such as events, objects, propositions, and intrinsic properties), and provide modeling patterns (in contrast to isolated elements).
+  - The OntoUML is, in practice, a UML Class diagram profile, whose grammar is designed according to the [Unified Foundational Ontology](https://doi.org/10.3233/AO-210256) (to become an [ISO standard](https://www.iso.org/standard/89915.html) soon). Consequently, the OntoUML models are constrained by useful upper ontological distinctions, which prevent certain modeling mistakes by design (for example, confusing entities of different natures, such as events, objects, propositions, and intrinsic properties), and provide modeling patterns (in contrast to isolated elements). The Unified Foundational Ontology was created primarily for conceptual modeling.
   - Furthermore, the OntoUML plugin includes several services, such as syntax verification and OWL generation (complying with [gUFO](https://nemo-ufes.github.io/gufo/), an OWL implementation of the Unified Foundational Ontology). This way, it is possible to build a conceptual model and obtain its Linked Data implementation automatically, guaranteeing a higher level of quality thanks to OntoUML's constraints.
   - A detailed catalog of OntoUML models can be found [**here**](https://github.com/OntoUML/ontouml-models). The collection of models is meant to be comprehensive, not qualitatively curated, so they should be seen critically.
 
@@ -40,6 +40,7 @@ By "Linked Data", we mean tools related to [Semantic Web standards](https://www.
 
 - [**The FAIR Cookbook**](https://github.com/FAIRplus/the-fair-cookbook)
   - Recipes to produce information artifacts that are **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable.
+  - The [FAIR principles](https://www.go-fair.org/fair-principles/) match perfectly with Linked Data both in research and industry contexts.
 
 - [**RDFlib**](https://github.com/RDFLib)
   - The best Python library and ecosystem for Linked Data.
@@ -56,10 +57,11 @@ By "Linked Data", we mean tools related to [Semantic Web standards](https://www.
 
 - [**Protégé**](https://protege.stanford.edu/)
   - It is a widely used ontology (OWL-focused) editor, though a bit buggy.
+  - It can be used in combination with a text/code editor by reloading the Protégé session as needed.
 
 - **Ontologies**
   - [**gUFO**](https://nemo-ufes.github.io/gufo/)
-    - gUFO is
+    - gUFO is a lightweight implementation of the Unified Foundational Ontology suitable for Semantic Web OWL 2 DL applications.
     - Using some upper ontology is better than using none. However, gUFO is the richest option out there, made by computer science folks with philosophical knowledge.
   - [**PROV-O**](https://www.w3.org/TR/prov-o/)
     - Widely used provenance ontology, a W3C standard.

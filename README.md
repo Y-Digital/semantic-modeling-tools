@@ -49,6 +49,9 @@ By "Linked Data", we mean tools related to [Semantic Web standards](https://www.
   - [Qlever](https://github.com/ad-freiburg/qlever)
   - [Oxigraph](https://github.com/oxigraph/oxigraph)
 
+- [Protégé](https://protege.stanford.edu/)
+  - Widely used ontology (OWL-focused) editor, though a bit buggy.
+
 - Ontologies
   - [gUFO](https://nemo-ufes.github.io/gufo/)
     - Using some upper ontology is better than using none. However, gUFO is the richest option out there, made by computer science folks with philosophical knowledge.

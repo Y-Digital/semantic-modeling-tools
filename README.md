@@ -10,14 +10,15 @@ Conceptual Modeling is the activity of formally describing some aspects of the p
 Modeling the domain or the problem correctly is one of the most important tasks in a project, if not the most important one, because grasping things incorrectly yields bad implementation and future interoperability issues.
 
 - [**OntoUML plugin for Visual Paradigm**](https://github.com/OntoUML/ontouml-vp-plugin)
-  - Visual Paradigm is a professional conceptual modeling toolsuite. The [community edition](https://www.visual-paradigm.com/editions/community/) can be used for free for non-commercial purposes.
+  - Visual Paradigm is a *professional* conceptual modeling toolsuite. The [community edition](https://www.visual-paradigm.com/editions/community/) can be used for free for non-commercial purposes.
   - The OntoUML is, in practice, a UML Class diagram profile, whose grammar is designed according to the Unified Foundational Ontology. Consequently, the OntoUML models are constrained by useful upper ontological distinctions, preventing certain modeling mistakes by design.
   - Furthermore, the OntoUML plugin includes several services, such as syntax verification and OWL generation (based on [gUFO](https://nemo-ufes.github.io/gufo/)). This way, it is possible to build a diagrammatic model and obtain its Linked Data implementation automatically.
   - A detailed catalog of OntoUML models can be found [**here**](https://github.com/OntoUML/ontouml-models).
 
 - [**Mermaid**](https://github.com/mermaid-js/mermaid)
-  - Mermaid is a free, open-source, easy-to-use tool for diagram generation with a Markdown-like textual syntax, supporting flow charts, various UML diagrams, ER diagrams, and many more.
+  - Mermaid is a free, open-source, easy-to-use tool for diagram generation with a Markdown-like textual syntax, supporting flow charts, various UML diagrams, ER diagrams, and many more. Since Mermaid has a textual syntax, Large Language Models can generate decent diagrams from prompts, which can be convenient for some use cases.
   - [PlantUML](https://github.com/plantuml/plantuml) is similar to Mermaid, but more powerful, although it is also more difficult to use.
+  - [draw.io](https://github.com/jgraph/drawio) is a simple and nice diagramming tool, too simple for serious conceptual modeling, though.
 
 - [**Archi**](https://github.com/archimatetool/archi)
   - Archi is a free, open-source tool for [ArchiMate](https://en.wikipedia.org/wiki/ArchiMate), a standard language for Enterprise Architecture.

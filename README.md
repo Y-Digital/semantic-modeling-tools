@@ -1,6 +1,6 @@
 # Conceptual Modeling and Linked Data Tools
 
-An opinionated list of useful tools for Conceptual Modeling and Linked Data.
+An opinionated list of tools for Conceptual Modeling and Linked Data. The list intends to present the most useful tools, instead of being comprehensive.
 
 
 # Conceptual Modeling
@@ -17,9 +17,7 @@ Modeling the domain or the problem correctly is one of the most important tasks 
 
 - [Mermaid](https://github.com/mermaid-js/mermaid)
   - Mermaid is a free, open-source, easy-to-use tool for diagram generation with a Markdown-like textual syntax, supporting flow charts, various UML diagrams, ER diagrams, and many more.
-
-- [PlantUML](https://github.com/plantuml/plantuml)
-  - PlantUML is similar to Mermaid, but more powerful, although it is also more difficult to use.
+  - [PlantUML](https://github.com/plantuml/plantuml) is similar to Mermaid, but more powerful, although it is also more difficult to use.
 
 - [Archi](https://github.com/archimatetool/archi)
   - Archi is a free, open-source tool for [ArchiMate](https://en.wikipedia.org/wiki/ArchiMate), a standard language for Enterprise Architecture.

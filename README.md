@@ -1,6 +1,6 @@
 # Conceptual Modeling and Linked Data Tools
 
-- An opinionated list of tools for Conceptual Modeling and Linked Data.
+- An opinionated list of practical tools for Conceptual Modeling and Linked Data.
 - The list intends to present the most useful tools, instead of being comprehensive.
 - It focuses on free, open-source resources.
 - The list provides a short review of the resource and brief considerations about its utility.

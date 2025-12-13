@@ -62,7 +62,7 @@ By "Linked Data", we mean tools related to [Semantic Web standards](https://www.
 - **Ontologies**
   - [**gUFO**](https://nemo-ufes.github.io/gufo/)
     - gUFO is a lightweight implementation of the Unified Foundational Ontology suitable for Semantic Web OWL 2 DL applications.
-    - Using some upper ontology is better than using none. However, gUFO is the richest option out there, made by computer science folks with philosophical knowledge.
+    - Using some upper/foundational ontology is better than using none. However, gUFO is the richest option out there, made by computer science folks with philosophical knowledge. The [Basic Formal Ontology](https://github.com/BFO-ontology) is another well-known upper ontology, widely used in the biomedical domain, although it is not as complete as gUFO.
   - [**PROV-O**](https://www.w3.org/TR/prov-o/)
     - Widely used provenance ontology, a W3C standard.
   - [**DCAT**](https://www.w3.org/TR/vocab-dcat-3/)

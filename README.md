@@ -62,6 +62,7 @@ By "Linked Data", we mean tools related to [Semantic Web standards](https://www.
   - It is a widely used ontology (OWL-focused) editor, though a bit buggy.
   - It can be used in combination with a text/code editor by reloading the Protégé session as needed.
   - Ultimately, text/code editors should always be used to write Linked Data specifications because they provide higher control and understanding.
+  - [VocBench](https://vocbench.uniroma2.it/) is an interesting alternative to Protégé.
 
 - **Ontologies and Vocabularies**
 

@@ -48,8 +48,9 @@ By "Linked Data", we mean tools related to [Semantic Web standards](https://www.
 - [**RDFlib**](https://github.com/RDFLib)
   - The best Python library and ecosystem for Linked Data.
   - Its JavaScript sibling is [rdflib.js](https://github.com/linkeddata/rdflib.js).
+  - For many other libraries, see [Awesome Semantic Web: Programming](https://github.com/semantalytics/awesome-semantic-web?tab=readme-ov-file#programming).
 
-- **Triplestores**
+## Triplestores
   - [**Apache Jena Fuseki**](https://jena.apache.org/documentation/fuseki2/)
     - It is a solid triplestore developed by the [Apache Software Foundation](https://apache.org/).
     - This [**Jena Fuseki Server with Inference Support**](https://github.com/andybywire/jena-fuseki-inf) is a Docker image for running Fuseki with RDFS and OWL inference. It is the easiest way to run Fuseki.
@@ -58,14 +59,14 @@ By "Linked Data", we mean tools related to [Semantic Web standards](https://www.
   - [**Oxigraph**](https://github.com/oxigraph/oxigraph)
     - It is less mature than the previous options, but it looks promising.
 
+## Linked Data Editors
 - [**Protégé**](https://protege.stanford.edu/)
   - It is a widely used ontology (OWL-focused) editor, though a bit buggy.
   - It can be used in combination with a text/code editor by reloading the Protégé session as needed.
   - Ultimately, text/code editors should always be used to write Linked Data specifications because they provide higher control and understanding.
   - [VocBench](https://vocbench.uniroma2.it/) is an interesting alternative to Protégé.
 
-- **Ontologies and Vocabularies**
-
+## Ontologies and Vocabularies
 > [!IMPORTANT]
 > In my opinion, using some upper/foundational ontology is better than using none to build domain ontologies because upper ontologies provide essential modeling blocks that you, as a modeler, cannot avoid. Even if you do not explicitly adopt a specific upper ontology, your ontology design will implicitly assume upper ontological distinctions.
 >

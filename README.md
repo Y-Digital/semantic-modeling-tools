@@ -46,7 +46,7 @@ By "Linked Data", we mean tools related to [Semantic Web standards](https://www.
   - The [FAIR principles](https://www.go-fair.org/fair-principles/) match perfectly with Linked Data both in research and industry contexts.
 
 - [**RDFlib**](https://github.com/RDFLib)
-  - The best Python library and ecosystem for Linked Data.
+  - The most mature Python library ecosystem for Linked Data.
   - Its JavaScript sibling is [rdflib.js](https://github.com/linkeddata/rdflib.js).
   - For many similar libraries in other programming languages, see [Awesome Semantic Web: Programming](https://github.com/semantalytics/awesome-semantic-web?tab=readme-ov-file#programming).
 

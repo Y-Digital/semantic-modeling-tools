@@ -19,10 +19,10 @@ Modeling the domain or the problem correctly is one of the most important tasks 
   - A detailed catalog of OntoUML models can be found [**here**](https://github.com/OntoUML/ontouml-models). The collection of models is meant to be comprehensive, *not qualitatively curated*, so they should be seen critically.
 
 > [!NOTE]
-> In practice, you can create OntoUML models using any tool that can create UML Class diagrams. However, the OntoUML plugin for Visual Paradigm offers explicit support for this task, including automatic coloring classes to denote their ontological nature, OWL generation, syntax verification, and others.
+> In practice, you can create OntoUML models using any tool that can create UML Class diagrams. However, the OntoUML plugin for Visual Paradigm offers explicit support for this task, including automatic coloring of classes to denote their ontological nature, OWL generation, syntax verification, and others.
 
 - [**Mermaid**](https://github.com/mermaid-js/mermaid)
-  - Mermaid is an easy-to-use tool for diagram generation with a Markdown-like textual syntax, supporting flow charts, various UML diagrams, Entity-Relationship model, and many more. Since Mermaid has a textual syntax, Large Language Models can generate decent diagrams from prompts, which can be convenient for some use cases.
+  - Mermaid is an easy-to-use tool for diagram generation with a Markdown-like textual syntax, supporting flow charts, various UML diagrams, the Entity-Relationship model, and many more. Since Mermaid has a textual syntax, Large Language Models can generate decent diagrams from prompts, which can be convenient for some use cases.
   - [PlantUML](https://github.com/plantuml/plantuml) is similar to Mermaid, but more powerful, although it is also more difficult to use.
   - [draw.io](https://github.com/jgraph/drawio) is a simple and nice diagramming tool, too simple for serious conceptual modeling, though.
 
@@ -34,7 +34,7 @@ Modeling the domain or the problem correctly is one of the most important tasks 
 By "Linked Data", we mean tools related to [Semantic Web standards](https://www.w3.org/2001/sw/wiki/Main_Page), particularly RDF, RDFS, OWL, SPARQL, and SHACL.
 
 - [**W3ID**](https://github.com/perma-id/w3id.org)
-  - Free, secure, permanent URLs for Web applications. It is the best service of this kind. Having permament URLs is crucial for Linked Data applications because they provide stable, unambiguous identifiers that allow data to be reliably connected, reused, and trusted over time.
+  - Free, secure, permanent URLs for Web applications. It is the best service of this kind. Having permanent URLs is crucial for Linked Data applications because they provide stable, unambiguous identifiers that allow data to be reliably connected, reused, and trusted over time.
   - The purl.archive is another example of this type of service; it is easier to use, but much less reliable, so it is not recommended. Services that generate [DOIs](https://www.doi.org/), such as Zenodo, have a different purpose, not suitable for Linked Data applications.
 
 - [**ReSpec**](https://github.com/speced/respec)
@@ -70,7 +70,7 @@ By "Linked Data", we mean tools related to [Semantic Web standards](https://www.
 > [!IMPORTANT]
 > In my opinion, using some upper/foundational ontology is better than using none to build domain ontologies because upper ontologies provide essential modeling blocks that you, as a modeler, cannot avoid. Even if you do not explicitly adopt a specific upper ontology, your ontology design will implicitly assume upper ontological distinctions.
 >
-> Some may argue that certain projects do not need the complexity of a foundational ontology. I agree. However, I would also add that these projects probably do not need to adopt Semantic Web standards either. Sometimes, a list of terms and definitions in CSV suffices.
+> Some may argue that certain projects do not need the complexity of a foundational ontology. I agree. However, these projects probably do not need to adopt Semantic Web standards either. Sometimes, a list of terms and definitions in CSV suffices.
 
   - [**gUFO**](https://nemo-ufes.github.io/gufo/)
     - gUFO (to become an [ISO standard](https://www.iso.org/standard/89915.html) soon) is a lightweight implementation of the Unified Foundational Ontology suitable for Semantic Web OWL 2 DL applications. gUFO is the most expressive upper ontology out there, made by computer science folks with philosophical knowledge.

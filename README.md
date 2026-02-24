@@ -54,6 +54,7 @@ By "Linked Data", we mean tools related to [Semantic Web standards](https://www.
   - [**Apache Jena Fuseki**](https://jena.apache.org/documentation/fuseki2/)
     - It is a solid triplestore developed by the [Apache Software Foundation](https://apache.org/).
     - This [**Jena Fuseki Server with Inference Support**](https://github.com/andybywire/jena-fuseki-inf) is a Docker image for running Fuseki with RDFS and OWL inference. It is the easiest way to run Fuseki.
+    - [Docker image designed for RDF-related tasks in automated pipelines (ETL/ELT)](https://github.com/zazukoians/docker-node-java-jena/). It packages the Apache Jena stack, Node.js, and a comprehensive set of CLI tools for RDF processing, scripting, and reasoning.
   - [**Qlever**](https://github.com/ad-freiburg/qlever)
     - It is most likely the fastest triplestore available, developed by the [Algorithms and Data Structures Group](https://github.com/ad-freiburg) at the University of Freiburg. 
   - [**Oxigraph**](https://github.com/oxigraph/oxigraph)

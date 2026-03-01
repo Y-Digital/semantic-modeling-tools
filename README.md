@@ -48,6 +48,7 @@ By "Linked Data", we mean tools related to [Semantic Web standards](https://www.
 - [**RDFlib**](https://github.com/RDFLib)
   - The most mature Python library ecosystem for Linked Data.
   - Its JavaScript sibling is [rdflib.js](https://github.com/linkeddata/rdflib.js).
+  - Alternatively, [**OpenRefine**](https://openrefine.org/) is a user-friendly GUI tool for working with messy data: cleaning, data transformation (supporting RDF), and other features.
   - For many similar libraries in other programming languages, see [Awesome Semantic Web: Programming](https://github.com/semantalytics/awesome-semantic-web?tab=readme-ov-file#programming).
 
 ## Triplestores

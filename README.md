@@ -33,6 +33,8 @@ Modeling the domain or the problem correctly is one of the most important tasks 
 
 By "Linked Data", we mean tools related to [Semantic Web standards](https://www.w3.org/2001/sw/wiki/Main_Page), particularly RDF, RDFS, OWL, SPARQL, and SHACL.
 
+- [**Linked Data Patterns**](https://patterns.dataincubator.org/), a pattern catalogue for modelling, publishing, and consuming Linked Data.
+
 - [**W3ID**](https://github.com/perma-id/w3id.org)
   - Free, secure, permanent URLs for Web applications. It is the best service of this kind. Having permanent URLs is crucial for Linked Data applications because they provide stable, unambiguous identifiers that allow data to be reliably connected, reused, and trusted over time.
   - The purl.archive is another example of this type of service; it is easier to use, but much less reliable, so it is not recommended. Services that generate [DOIs](https://www.doi.org/), such as Zenodo, have a different purpose, not suitable for Linked Data applications.

@@ -85,6 +85,9 @@ By "Linked Data", we mean tools related to [Semantic Web standards](https://www.
     - The Dublin Core Terms (ISO 15836-1:2017, IETF RFC 5013, ANSI/NISO Z39.85) are a widely used standard vocabulary to describe metadata of resources, such as documents, datasets, images, websites, or services.
   - [**SKOS**](https://www.w3.org/2004/02/skos/)
     - SKOS is a W3C standard for representing thesauri and taxonomies, which are much less complex than full-fledged domain ontologies.
+    - For documentation and browsing, I recommend the following:
+      - [SKOHUB](https://skohub.io/), simple and effective.
+      - [SKOSMOS](https://skosmos.org/), more complicated, as it requires a PHD server and a triple store.
 
 # Others
 

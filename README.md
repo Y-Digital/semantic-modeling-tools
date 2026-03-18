@@ -89,7 +89,7 @@ By "Linked Data", we mean tools related to [Semantic Web standards](https://www.
     - SKOS is a W3C standard for representing thesauri and taxonomies, which are much less complex than full-fledged domain ontologies.
     - For documentation and browsing, I recommend the following:
       - [SKOHUB](https://skohub.io/), simple and effective.
-      - [SKOSMOS](https://skosmos.org/), more complicated, as it requires a PHD server and a triple store.
+      - [SKOSMOS](https://skosmos.org/), more complicated, as it requires a PHP server and a triple store.
 
 # Others
 

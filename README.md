@@ -77,7 +77,7 @@ By "Linked Data", we mean tools related to [Semantic Web standards](https://www.
 > Some may argue that certain projects do not need the complexity of a foundational ontology. I agree. However, these projects probably do not need to adopt Semantic Web standards either. Sometimes, a list of terms and definitions in CSV suffices.
 
   - [**gUFO**](https://nemo-ufes.github.io/gufo/)
-    - gUFO (to become an [ISO standard](https://www.iso.org/standard/89915.html) soon) is a lightweight implementation of the Unified Foundational Ontology suitable for Semantic Web OWL 2 DL applications. gUFO is the most expressive upper ontology out there, made by computer science folks with philosophical knowledge.
+    - gUFO (to become an [ISO standard](https://www.iso.org/standard/89915.html) soon) is a lightweight implementation of the Unified Foundational Ontology suitable for Semantic Web OWL 2 DL applications. gUFO is the most expressive upper ontology out there, made by computer science folks with philosophical knowledge. Besides the documentation, a good introduction is ["gUFO: A Gentle Foundational Ontology for Semantic Web Knowledge Graphs"](https://arxiv.org/abs/2603.20948).
     - The [Basic Formal Ontology](https://github.com/BFO-ontology) (ISO/IEC 21838-2:2021) is another well-known upper ontology, widely used in the biomedical domain, although it is not as complete as gUFO.
   - [**PROV-O**](https://www.w3.org/TR/prov-o/)
     - It is a widely used provenance ontology, a W3C standard.

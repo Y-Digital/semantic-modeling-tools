@@ -8,21 +8,24 @@
 
 # Conceptual Modeling
 
-Conceptual Modeling is the activity of formally describing some aspects of the physical and social world around us for purposes of *understanding* and *communication*. Conceptual models are intended to be used by humans, not machines, although they can support computational tasks, such as data model design and automated reasoning. The need for conceptual models is, therefore, a human need to understand the environment by a form of intersubjective representation (very often a diagrammatic form).
+Conceptual Modeling is the activity of formally describing aspects of the physical and social world around us for purposes of *understanding*, *communication*, and **problem-solving**. Humans, not machines, use conceptual models, although they can support computational tasks such as data model design, object-oriented programming, and automated reasoning. Therefore, the need for conceptual models is a human need to understand the environment through a form of intersubjective representation (often as diagrams).
 
 Modeling the domain or the problem correctly is one of the most important tasks in a project, if not the most important one, because grasping things incorrectly yields bad implementation and future interoperability issues.
 
 - [**OntoUML plugin for Visual Paradigm**](https://github.com/OntoUML/ontouml-vp-plugin)
-  - Visual Paradigm is a *professional* conceptual modeling tool suite. The [community edition](https://www.visual-paradigm.com/editions/community/) can be used for free for non-commercial purposes. It is the only closed-source and paid tool (for commercial purposes) on this list. However, the entire [OntoUML ecosystem](https://github.com/OntoUML) (metamodel, schema, server, etc.) adopts open-source, permissive licenses, such as Apache 2.0. This means anyone is free to implement the OntoUML language in another tool or as a standalone tool.
-  - The OntoUML is implemented as a UML Class diagram profile, whose grammar is designed according to the [Unified Foundational Ontology](https://doi.org/10.3233/AO-210256) (to become an [ISO standard](https://www.iso.org/standard/89915.html) soon). Consequently, the OntoUML models are constrained by useful upper ontological distinctions, which prevent certain modeling mistakes by design (for example, confusing entities of different natures, such as events, objects, propositions, and intrinsic properties), and provide modeling patterns (in contrast to isolated elements). In summary, OntoUML language helps you create better conceptual models. 
+  - Visual Paradigm is a *professional* conceptual modeling tool suite. The [community edition](https://www.visual-paradigm.com/editions/community/) can be used for free for non-commercial purposes. It is the only _closed-source and paid tool_ (for commercial purposes) on this list. However, the entire [OntoUML ecosystem](https://github.com/OntoUML) (metamodel, schema, server, etc.) adopts open-source, permissive licenses, such as Apache 2.0. This means anyone is free to implement the OntoUML language in another tool or as a standalone tool.
+  - The OntoUML language is implemented as a UML Class diagram profile, whose grammar is designed according to the [Unified Foundational Ontology](https://doi.org/10.3233/AO-210256) (to become an [ISO standard](https://www.iso.org/standard/89915.html) soon). Consequently, the OntoUML models are constrained by useful upper ontological distinctions, which prevent certain modeling mistakes by design (for example, confusing entities of different natures, such as events, objects, propositions, and intrinsic properties), and provide modeling patterns (in contrast to isolated elements). In summary, the OntoUML language helps you create better conceptual models. 
   - The OntoUML plugin includes several services, such as syntax verification and OWL generation (complying with [gUFO](https://nemo-ufes.github.io/gufo/), an OWL implementation of the Unified Foundational Ontology). This way, it is possible to build a conceptual model and generate its Linked Data implementation automatically, guaranteeing a higher level of quality thanks to OntoUML's constraints.
   - A detailed catalog of OntoUML models can be found [**here**](https://github.com/OntoUML/ontouml-models). The collection of models is meant to be comprehensive, *not qualitatively curated*, so they should be seen critically.
 
 > [!NOTE]
 > In practice, you can create OntoUML models using any tool that can create UML Class diagrams. However, the OntoUML plugin for Visual Paradigm offers explicit support for this task, including automatic coloring of classes to denote their ontological nature, OWL generation, syntax verification, and others.
 
+- [**Tonto**](https://github.com/nemo-ufes/tonto)
+  - Tonto is a textual ontology modeling language. In a sense, it can be seen as a textual syntax for OntoUML. The project ships CLI tools and a VS Code extension. A complementary project includes a [visualizer](https://github.com/nemo-ufes/tonto-visualizer) for Tonto models.
+
 - [**Mermaid**](https://github.com/mermaid-js/mermaid)
-  - Mermaid is an easy-to-use tool for diagram generation with a Markdown-like textual syntax, supporting flow charts, various UML diagrams, the Entity-Relationship model, and many more. Since Mermaid has a textual syntax, Large Language Models can generate decent diagrams from prompts, which can be convenient for some use cases.
+  - Mermaid is an easy-to-use tool for diagram generation with a Markdown-like textual syntax, supporting flowcharts, various UML diagrams, the Entity-Relationship model, and many more. Since Mermaid has a textual syntax, Large Language Models can generate decent diagrams from prompts, which can be convenient for some use cases.
   - [PlantUML](https://github.com/plantuml/plantuml) is similar to Mermaid, but more powerful, although it is also more difficult to use.
   - [draw.io](https://github.com/jgraph/drawio) is a simple and nice diagramming tool, too simple for serious conceptual modeling, though.
 
@@ -37,7 +40,7 @@ By "Linked Data", we mean tools related to [Semantic Web standards](https://www.
 
 - [**W3ID**](https://github.com/perma-id/w3id.org)
   - Free, secure, permanent URLs for Web applications. It is the best service of this kind. Having permanent URLs is crucial for Linked Data applications because they provide stable, unambiguous identifiers that allow data to be reliably connected, reused, and trusted over time.
-  - The purl.archive is another example of this type of service; it is easier to use, but much less reliable, so it is not recommended. Services that generate [DOIs](https://www.doi.org/), such as Zenodo, have a different purpose, not suitable for Linked Data applications.
+  - The purl.archive is another example of this type of service; it is easier to use, but much less reliable, so it is not recommended. Services that generate [DOIs](https://www.doi.org/), such as Zenodo, have a different purpose and are not suitable for Linked Data applications.
 
 - [**ReSpec**](https://github.com/speced/respec)
   - ReSpec is a JavaScript library that makes it easier to write technical documents. It was originally designed for the purpose of writing W3C specifications. The documentation of nearly all W3C standards follows the ReSpec template. Since most of it consists of HTML, ReSpec is easy to use, even if you do not know JavaScript.

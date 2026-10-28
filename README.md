@@ -26,7 +26,10 @@ Modeling the domain or the problem correctly is one of the most important tasks 
 > In practice, you can create OntoUML models using any tool that can create UML Class diagrams. However, the OntoUML plugin for Visual Paradigm offers explicit support for this task, including automatic coloring of classes to denote their ontological nature, OWL generation, syntax verification, and others.
 
 - [**Tonto**](https://github.com/nemo-ufes/tonto)
-  - Tonto is a textual ontology modeling language. In a sense, it can be seen as a textual syntax for OntoUML. The project ships CLI tools (including a gUFO-based OWL generation) and a VS Code extension. A complementary project includes a [visualizer](https://github.com/nemo-ufes/tonto-visualizer) for Tonto models. It is fully open-source. _It is replacing the OntoUML Visual Paradigm plugin._
+  - Tonto is a textual ontology modeling language. In a sense, it can be seen as a textual syntax for OntoUML. The project ships CLI tools (including a gUFO-based OWL generation) and a VS Code extension. A complementary project includes a [visualizer](https://github.com/nemo-ufes/tonto-visualizer) for Tonto models. It is fully open-source.
+
+> [!NOTE]
+> _Tonto is replacing the OntoUML Visual Paradigm plugin._
 
 - [**Mermaid**](https://github.com/mermaid-js/mermaid)
   - Mermaid is an easy-to-use tool for diagram generation with a Markdown-like textual syntax, supporting flowcharts, various UML diagrams, the Entity-Relationship model, and many more. Since Mermaid has a textual syntax, Large Language Models can generate decent diagrams from prompts, which can be convenient for some use cases.

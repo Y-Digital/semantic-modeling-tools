@@ -1,4 +1,6 @@
-![y.digital](ydigital-logo.png)
+<p align="center">
+  <img  src="ydigital-logo.png" width="800" height="400" alt="y.digital logo">
+</p>
 
 # Conceptual Modeling and Linked Data Tools
 

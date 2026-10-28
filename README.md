@@ -1,3 +1,5 @@
+![y.digital](ydigital-logo.png)
+
 # Conceptual Modeling and Linked Data Tools
 
 - An opinionated list of practical tools for Conceptual Modeling and Linked Data.

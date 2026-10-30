@@ -23,7 +23,7 @@ Modeling the domain or the problem correctly is one of the most important tasks 
   - A detailed catalog of OntoUML models can be found [**here**](https://github.com/OntoUML/ontouml-models). The collection of models is meant to be comprehensive, *not qualitatively curated*, so they should be seen critically.
 
 > [!WARNING]
-> _Tonto is replacing the OntoUML plugin for Visual Paradigm_ (described below).
+> Tonto is replacing the OntoUML plugin for Visual Paradigm (described below). Therefore, Tonto is our first recommendation for OntoUML models.
 
 - [**OntoUML plugin for Visual Paradigm**](https://github.com/OntoUML/ontouml-vp-plugin)
   - Visual Paradigm is a *professional* conceptual modeling tool suite. The [community edition](https://www.visual-paradigm.com/editions/community/) can be used for free for non-commercial purposes. It is the only _closed-source and paid tool_ (for commercial purposes) on this list. However, the entire [OntoUML ecosystem](https://github.com/OntoUML) (metamodel, schema, server, etc.) adopts open-source, permissive licenses, such as Apache 2.0. This means anyone is free to implement the OntoUML language in another tool or as a standalone tool. The plugin also includes several services available on the Tonto CLI, such as OntoUML syntax verification and OWL generation complying with gUFO.

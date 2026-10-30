@@ -28,7 +28,7 @@ Modeling the domain or the problem correctly is one of the most important tasks 
 - [**Tonto**](https://github.com/nemo-ufes/tonto)
   - Tonto is a textual ontology modeling language. In a sense, it can be seen as a textual syntax for OntoUML. The project ships CLI tools (including a gUFO-based OWL generation) and a VS Code extension. A complementary project includes a [visualizer](https://github.com/nemo-ufes/tonto-visualizer) for Tonto models. It is fully open-source.
 
-> [!NOTE]
+> [!WARNING]
 > _Tonto is replacing the OntoUML Visual Paradigm plugin._
 
 - [**Mermaid**](https://github.com/mermaid-js/mermaid)

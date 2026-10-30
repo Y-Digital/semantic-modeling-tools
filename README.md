@@ -84,6 +84,10 @@ By "Linked Data", we mean tools related to [Semantic Web standards](https://www.
   - It is a widely used ontology (OWL-focused) editor, though a bit buggy.
   - It can be used in combination with a text/code editor by reloading the Protégé session as needed.
   - Ultimately, text/code editors should always be used to write Linked Data specifications because they provide higher control and understanding.
+ 
+- [**Neovim**](https://neovim.io/)
+  - Hyperextensible Vim-based text editor. Modal, terminal-based text editors are the most powerful and resource-efficient, though they are not as easy to use as Visual Studio Code.
+  - Check [this minimal Neovim config](https://codeberg.org/italojsoliveira/dotfiles) with basic syntax highlighting support for SPARQL, TTL, and Tonto.
 
 ## Ontologies and Vocabularies
 > [!IMPORTANT]
